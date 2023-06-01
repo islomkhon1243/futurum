@@ -1,0 +1,92 @@
+/* Set the font family and size for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Set the styles for the page header */
+h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/* Set the styles for the form */
+form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+/* Set the styles for the form labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Set the styles for the form input fields */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+/* Set the styles for the submit button */
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #009688;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Change the background color of the submit button when hovered over */
+input[type="submit"]:hover {
+  background-color: #00796b;
+}
+
+/* Set the styles for the error message */
+.error-message {
+  color: #f44336;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/* Set the styles for the success message */
+.success-message {
+  color: #4caf50;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}

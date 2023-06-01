@@ -1,0 +1,31 @@
+/* Style for the table */
+.content table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Style for the table headers */
+  .content th {
+    background-color: #f2f2f2;
+    color: #444444;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #dddddd;
+  }
+  
+  /* Style for the table cells */
+  .content td {
+    background-color: #ffffff;
+    color: #444444;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #dddddd;
+  }
+  
+  /* Style for alternating table rows */
+  .content tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

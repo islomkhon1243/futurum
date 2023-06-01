@@ -1,0 +1,78 @@
+.content body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.content .wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.content h2 {
+  margin-top: 0;
+  font-size: 36px;
+  text-align: center;
+  color: #333;
+}
+
+.content p {
+  font-size: 18px;
+  color: #666;
+}
+
+.content label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: #333;
+}
+
+.content input[type="text"],
+.content input[type="email"],
+.content input[type="tel"],
+.content input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.content input[type="submit"],
+.content input[type="reset"] {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.content input[type="submit"]:hover,
+.content input[type="reset"]:hover {
+  background-color: #0069d9;
+}
+
+.content .help-block {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.content .has-error input[type="text"],
+.content .has-error input[type="email"],
+.content .has-error input[type="tel"],
+.content .has-error input[type="file"] {
+  border-color: red;
+}
